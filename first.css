@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
+body,
+head {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ma Shan Zheng", cursive;
+  font-family: "Noto Sans TC", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+header {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 1rem 0rem 0rem 0rem;
+}
+h1 {
+  margin: 1rem 0rem 0rem 0;
+}
+h3.headerText {
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 25px;
+}
+nav.title {
+  background-color: #3b383c;
+  padding: 0rem;
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  display: flex;
+  margin: 0rem;
+  padding: 0.5rem 1rem;
+  list-style-type: none;
+}
+nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+nav ul li a {
+  font-size: 1.25rem;
+  color: rgb(124, 123, 123);
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+}
+nav ul li a:hover {
+  color: white;
+}
+.headerTitle {
+  font-size: 2.5rem;
+}
+.headerText {
+  font-size: 1rem;
+}
+.active {
+  color: white;
+}
+main {
+  width: 100%;
+  display: flex;
+}
+
+section.right,
+section.left {
+  padding: 1.5rem;
+}
+
+selection.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.right p {
+  margin: 1rem 0rem;
+}
+iframe {
+  border-radius: 2rem;
+}
